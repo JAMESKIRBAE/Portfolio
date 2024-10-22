@@ -1,73 +1,83 @@
-const logotext = "JOHN";
+const logotext = "Kirby";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Portfolio",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m James Kirby V. Remo",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I'm an I.T. Student",
+        third: "At Western Institute of Technology",
+        fourth: "Me reyna, Me Swing",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "This is A simple Portfolio for a project in Integrative Programming",
+     picture: "/me45.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+        aboutme: "Currently a 3rd year Student at Western Institute of Technology who is a good student. I chose InfoTech course because ever since I was young I was always curious if how things work in every innovating technologies that arise and how they created these things.",
 };
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 50,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Java",
+        value: 45,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 50,
     },
     {
         name: "React",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "C#",
+        value: 25,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Violin",
+        description: "I can play violin any song you like as long as I know the tune as well.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Playing Games",
+        description: "I like to play games especially Survival and Farming type of Games.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Coding",
+        description: "I code when there's absolutely nothing to do to be Productive. ",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/project1.png",
+        description: "This app is for listing down things to do with other people if you have such goals.",
+        link: "https://awesometodosapp-lvry.onrender.com",
+    },
+    {
+        img: "/project2.png",
+        description: "This is a simple mobile figma framework that can be used in the future for WIT to be easily accessible anywhere.",
+        link: "https://www.figma.com/design/dwPeXoiy8dd9NcF8oMRy0m/Untitled?node-id=0-1&t=iW1Ij8ydt7Y53WnJ-1",
+    },
+    {
+        img: "/project3.png",
+        description: "This is a simple mobile figma framework that can be used in the future in advertising Iloilo's unique foods and delicacies.",
+        link: "https://www.figma.com/design/ItZC90LOPhX6wp15YHVfJv/LOGIN?node-id=0-1&t=r2hIzvmQQVztxnaD-1",
     },
     
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "demonpinya@gmail.com",
+    YOUR_FONE: "09939760542",
+    description: "THIS PAGE IS STILL IN DEVELOPMENT PROCESS, APOLOGIES.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -76,10 +86,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/JAMESKIRBAE",
+    facebook: "https://www.facebook.com/profile.php?id=100008232191419",
+    linkedin: "https://www.linkedin.com/in/kirbingki-remo-ba51a6334/",
+    twitter: "https://x.com/Kirbae451340",
 };
 export {
     meta,

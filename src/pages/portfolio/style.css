@@ -23,6 +23,7 @@
 
 .po_item img {
     max-width: 100%;
+
 }
 
 .po_item .content {
@@ -44,7 +45,7 @@
     opacity: 0;
     border: 1px solid black;
 }
-
+    
 .po_item .content {
     opacity: 0;
     transition-delay: 1s;
